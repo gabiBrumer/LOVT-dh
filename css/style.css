@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ropa sans', 'sans-serif';
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 49px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+header h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+    color: #777777;
+    margin-left: 44px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+header h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #AAAAAA;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+header img {
+    width: 18px;
+    height: 12px;
+    margin-left: 1750px;
+    margin-top: 18px;
+}
+
+.banner-principal {
+    width: 100%;
+    height: 259px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+}
+
+.imagem1 {
+    width: 256px;
+    height: 242px;
+    background-color: #EEEEEEEE;
+}
+
+.imagem1 img {
+    height: 144px;
+}
+
+.imagem2 {
+    width: 256px;
+    height: 242px;
+    background-color: #EEEEEEEE;
+    margin-left: 96px;
+}
+
+.imagem2 img {
+    height: 144px;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.valor {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    color: #888888;
+
+}
+
+.fundo-estado {
+    width: 56px;
+    height: 21px;
+    background: #51D275;
+    border-radius: 10.5px;
+    display: flex;
+    justify-content: center;
+}
+
+.fundo-estado2 {
+    width: 56px;
+    height: 21px;
+    background: #DC9730;
+    ;
+    border-radius: 10.5px;
+    display: flex;
+    justify-content: center;
+}
+
+.estado {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.texto {
+    Width: 231px;
+    Height: 44px;
+    margin-top: 13px;
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: justify;
+    color: #555555;
+}
+
+.cards2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards2 h3 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    color: #888888;
+    margin-top: 45px;
+}
+
+.industrial {
+    width: 608px;
+    height: 80px;
+    margin-top: 13px;
+    background-image: url("/img/industrial.png");
+    opacity: 0.5
+}
+
+.industrial p {
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.modern {
+    width: 608px;
+    height: 80px;
+    margin-top: 13px;
+    background-image: url("/img/modern.png");
+    opacity: 0.5
+}
+
+.modern p {
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.classic {
+    width: 608px;
+    height: 80px;
+    margin-top: 13px;
+    background-image: url("/img/classic.png");
+    opacity: 0.5
+}
+
+.classic p {
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    width: 100%;
+    height: 243px;
+    background: #333333;
+    margin-top: 57px;
+    display: flex;
+    justify-content: center;
+}
+
+.mapa {
+    width: 252px;
+    height: 163px;
+    border-radius: 19px;
+    margin-top: 40px;
+}
+
+.infos-gerais p {
+    margin-top: 30px;
+    margin-left: 177px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.midias {
+    margin-top: 10px;
+    margin-left: 177px;
+}
+
+.midias img {
+    margin-left: 10px;
+}
+
+.localizacao {
+    width: 175px;
+    height: 95px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    color: #FFFFFF;
+}
